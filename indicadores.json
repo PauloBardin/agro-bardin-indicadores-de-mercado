@@ -1,0 +1,496 @@
+{
+ "versao": 2,
+ "atualizado": "20/10/2026",
+ "cepea_mensal": {
+  "fonte": "Cepea/Esalq, via Notícias Agrícolas (cotação do último dia útil de cada mês)",
+  "links": {
+   "industria": "https://www.noticiasagricolas.com.br/cotacoes/laranja/laranja-industria",
+   "pera": "https://www.noticiasagricolas.com.br/cotacoes/laranja/laranja-pera-in-natura"
+  },
+  "serie": [
+   [
+    "2024-07-31",
+    83.11,
+    94.34
+   ],
+   [
+    "2024-08-30",
+    80.92,
+    102.56
+   ],
+   [
+    "2024-09-30",
+    88.94,
+    119.28
+   ],
+   [
+    "2024-10-31",
+    90.71,
+    136.5
+   ],
+   [
+    "2024-11-29",
+    88.36,
+    115.65
+   ],
+   [
+    "2024-12-30",
+    87.0,
+    107.1
+   ],
+   [
+    "2025-01-31",
+    86.43,
+    105.33
+   ],
+   [
+    "2025-02-28",
+    74.29,
+    95.32
+   ],
+   [
+    "2025-03-31",
+    57.5,
+    95.16
+   ],
+   [
+    "2025-04-30",
+    46.71,
+    93.58
+   ],
+   [
+    "2025-05-30",
+    45.17,
+    72.2
+   ],
+   [
+    "2025-06-30",
+    44.1,
+    61.2
+   ],
+   [
+    "2025-07-31",
+    43.44,
+    55.59
+   ],
+   [
+    "2025-08-29",
+    47.76,
+    57.64
+   ],
+   [
+    "2025-09-30",
+    49.77,
+    60.88
+   ],
+   [
+    "2025-10-30",
+    50.39,
+    61.16
+   ],
+   [
+    "2025-11-28",
+    38.39,
+    52.47
+   ],
+   [
+    "2025-12-30",
+    36.53,
+    39.38
+   ],
+   [
+    "2026-01-30",
+    36.88,
+    41.32
+   ],
+   [
+    "2026-02-27",
+    31.67,
+    42.04
+   ],
+   [
+    "2026-03-31",
+    29.29,
+    45.0
+   ],
+   [
+    "2026-04-30",
+    25.82,
+    40.03
+   ],
+   [
+    "2026-05-29",
+    24.88,
+    37.45
+   ],
+   [
+    "2026-06-30",
+    30.63,
+    34.52
+   ],
+   [
+    "2026-07-31",
+    30.57,
+    32.99
+   ],
+   [
+    "2026-08-31",
+    31.18,
+    31.43
+   ],
+   [
+    "2026-09-30",
+    28.77,
+    30.82
+   ]
+  ],
+  "ultimo": {
+   "data": "19/10/2026",
+   "industria": 27.8,
+   "industria_var": "+0,11%",
+   "pera": 30.76,
+   "pera_var": "-0,68%"
+  }
+ },
+ "hf_mesa": {
+  "fonte": "Hortifruti/Cepea (HF Brasil), média móvel de 5 dias úteis por região",
+  "link": "https://www.hfbrasil.org.br/br/estatistica/citros.aspx",
+  "data": "19/10/2026",
+  "linhas": [
+   [
+    "Laranja lima",
+    "Árvore",
+    "Araraquara",
+    "R$/cx 40,8 kg",
+    61.2
+   ],
+   [
+    "Laranja lima",
+    "Árvore",
+    "Bebedouro",
+    "R$/cx 40,8 kg",
+    50.0
+   ],
+   [
+    "Laranja pera",
+    "Árvore",
+    "Araraquara",
+    "R$/cx 40,8 kg",
+    34.7
+   ],
+   [
+    "Laranja pera",
+    "Árvore",
+    "Bebedouro",
+    "R$/cx 40,8 kg",
+    32.83
+   ],
+   [
+    "Laranja pera",
+    "Árvore",
+    "Limeira",
+    "R$/cx 40,8 kg",
+    33.95
+   ],
+   [
+    "Laranja pera",
+    "Árvore",
+    "Mogiana",
+    "R$/cx 40,8 kg",
+    27.25
+   ],
+   [
+    "Lima ácida tahiti",
+    "Colhida",
+    "Araraquara",
+    "R$/cx 27 kg",
+    156.89
+   ],
+   [
+    "Lima ácida tahiti",
+    "Colhida",
+    "Bebedouro",
+    "R$/cx 27 kg",
+    155.0
+   ],
+   [
+    "Lima ácida tahiti",
+    "Colhida",
+    "Mogiana",
+    "R$/cx 27 kg",
+    180.0
+   ],
+   [
+    "Tangerina ponkan",
+    "Árvore",
+    "Araraquara",
+    "R$/cx 27 kg",
+    108.8
+   ]
+  ]
+ },
+ "ceasas": {
+  "fonte": "Ceasa Campinas/SP, Ceasa Belo Horizonte/MG e Ceagesp/SP, via Notícias Agrícolas",
+  "links": [
+   "https://www.noticiasagricolas.com.br/cotacoes/laranja/laranja-ceasas",
+   "https://www.noticiasagricolas.com.br/cotacoes/frutas"
+  ],
+  "data": "19/10/2026",
+  "linhas": [
+   [
+    "Laranja pera",
+    "Gde (11-12 DZ)",
+    "Campinas/SP",
+    2.2
+   ],
+   [
+    "Laranja pera",
+    "Extra",
+    "Belo Horizonte/MG",
+    2.0
+   ],
+   [
+    "Laranja pera",
+    "13 a 15 DZ",
+    "Ceagesp/SP",
+    1.46
+   ],
+   [
+    "Limão tahiti",
+    "Extra",
+    "Campinas/SP",
+    9.5
+   ],
+   [
+    "Limão tahiti",
+    "Especial",
+    "Campinas/SP",
+    7.25
+   ],
+   [
+    "Limão tahiti",
+    "Primeira",
+    "Campinas/SP",
+    4.5
+   ],
+   [
+    "Limão tahiti",
+    "Extra",
+    "Belo Horizonte/MG",
+    10.0
+   ],
+   [
+    "Limão tahiti",
+    "Especial",
+    "Belo Horizonte/MG",
+    9.0
+   ],
+   [
+    "Limão tahiti",
+    "15 a 18 DZ",
+    "Ceagesp/SP",
+    8.28
+   ],
+   [
+    "Limão tahiti",
+    "21 a 27 DA",
+    "Ceagesp/SP",
+    6.8
+   ],
+   [
+    "Limão tahiti",
+    "Acima de 31 DZ",
+    "Ceagesp/SP",
+    5.65
+   ],
+   [
+    "Tangerina murcott",
+    "Murcott",
+    "Campinas/SP",
+    5.0
+   ],
+   [
+    "Tangerina murcott",
+    "Graúda",
+    "Belo Horizonte/MG",
+    7.0
+   ],
+   [
+    "Tangerina murcott",
+    "03 a 04 DZ",
+    "Ceagesp/SP",
+    3.81
+   ],
+   [
+    "Tangerina ponkan",
+    "T. 7-9 DZ",
+    "Campinas/SP",
+    6.67
+   ],
+   [
+    "Tangerina ponkan",
+    "Graúda",
+    "Belo Horizonte/MG",
+    6.11
+   ],
+   [
+    "Tangerina ponkan",
+    "02 a 04 DZ",
+    "Ceagesp/SP",
+    15.0
+   ],
+   [
+    "Abacate",
+    "Avocado",
+    "Campinas/SP",
+    12.0
+   ],
+   [
+    "Abacate",
+    "Breda",
+    "Campinas/SP",
+    4.0
+   ],
+   [
+    "Abacate",
+    "Avocado/Hass/Fuerte A",
+    "Ceagesp/SP",
+    12.14
+   ],
+   [
+    "Abacate",
+    "Breda (Boca 8 a 11)",
+    "Ceagesp/SP",
+    5.61
+   ],
+   [
+    "Mamão formosa",
+    "Extra",
+    "Campinas/SP",
+    8.6
+   ],
+   [
+    "Mamão formosa",
+    "Extra",
+    "Belo Horizonte/MG",
+    4.44
+   ],
+   [
+    "Mamão formosa",
+    "05 a 09 frutos",
+    "Ceagesp/SP",
+    7.26
+   ]
+  ]
+ },
+ "fundecitrus": {
+  "safras": [
+   {
+    "safra": "2024/25",
+    "valor": 230.87,
+    "tipo": "Produção final",
+    "fonte": "Fundecitrus, 10/04/2026",
+    "link": "https://www.fundecitrus.com.br/noticias/safra-de-laranja-2025-26-e-encerrada-com-producao-total-de-29294-milhoes-de-caixas/",
+    "data": "10/04/2026"
+   },
+   {
+    "safra": "2025/26",
+    "valor": 292.94,
+    "tipo": "Produção final",
+    "fonte": "Fundecitrus, 10/04/2026",
+    "link": "https://www.fundecitrus.com.br/noticias/safra-de-laranja-2025-26-e-encerrada-com-producao-total-de-29294-milhoes-de-caixas/",
+    "data": "10/04/2026"
+   },
+   {
+    "safra": "2026/27",
+    "valor": 255.2,
+    "tipo": "Estimativa inicial (maio)",
+    "fonte": "Fundecitrus, 08/05/2026",
+    "link": "https://www.fundecitrus.com.br/noticias/safra-de-laranja-2026-27-do-cinturao-citricola-de-sp-e-triangulo-mineiro-sudoeste-de-minas-gerais-e-estimada-em-25520-milhoes-de-caixas/",
+    "data": "08/05/2026"
+   },
+   {
+    "safra": "2026/27",
+    "valor": 263.15,
+    "tipo": "Reestimativa (setembro)",
+    "fonte": "Fundecitrus, 10/09/2026, via Forbes Agro",
+    "link": "https://forbes.com.br/forbes-agro/2026/09/fundecitrus-eleva-projecao-de-safra-de-laranja-de-sp-e-mg/",
+    "data": "10/09/2026"
+   }
+  ],
+  "queda": [
+   {
+    "rotulo": "2025/26 (final)",
+    "valor": 23.2
+   },
+   {
+    "rotulo": "2026/27 (estimativa de maio)",
+    "valor": 23.7
+   },
+   {
+    "rotulo": "2026/27 (reestimativa de setembro)",
+    "valor": 24.1
+   }
+  ],
+  "greening": {
+   "fonte": "Fundecitrus, Levantamento de doenças 2026",
+   "link": "https://www.fundecitrus.com.br/wp-content/uploads/2026/08/Levantamento-de-doencas-2026_Relatorio-completo.pdf",
+   "ano": 2026,
+   "incidencia": 48.08,
+   "ano_anterior": 2025,
+   "incidencia_anterior": 47.63,
+   "severidade": 27.03,
+   "severidade_anterior": 22.74,
+   "regioes": [
+    [
+     "Limeira",
+     82.1
+    ],
+    [
+     "Porto Ferreira",
+     72.43
+    ],
+    [
+     "Avaré",
+     69.5
+    ],
+    [
+     "Brotas",
+     68.1
+    ],
+    [
+     "Duartina",
+     65.53
+    ],
+    [
+     "Bebedouro",
+     50.92
+    ],
+    [
+     "Altinópolis",
+     43.24
+    ],
+    [
+     "São José do Rio Preto",
+     32.79
+    ],
+    [
+     "Itapetininga",
+     27.4
+    ],
+    [
+     "Matão",
+     24.57
+    ],
+    [
+     "Votuporanga",
+     4.63
+    ],
+    [
+     "Triângulo Mineiro",
+     0.31
+    ]
+   ]
+  }
+ }
+}
