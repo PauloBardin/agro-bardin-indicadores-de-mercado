@@ -1,6 +1,6 @@
 {
  "versao": 2,
- "atualizado": "20/10/2026",
+ "atualizado": "21/10/2026",
  "cepea_mensal": {
   "fonte": "Cepea/Esalq, via Notícias Agrícolas (cotação do último dia útil de cada mês)",
   "links": {
@@ -155,7 +155,7 @@
  "hf_mesa": {
   "fonte": "Hortifruti/Cepea (HF Brasil), média móvel de 5 dias úteis por região",
   "link": "https://www.hfbrasil.org.br/br/estatistica/citros.aspx",
-  "data": "19/10/2026",
+  "data": "20/10/2026",
   "linhas": [
    [
     "Laranja lima",
@@ -183,7 +183,7 @@
     "Árvore",
     "Bebedouro",
     "R$/cx 40,8 kg",
-    32.83
+    34.25
    ],
    [
     "Laranja pera",
@@ -197,21 +197,21 @@
     "Árvore",
     "Mogiana",
     "R$/cx 40,8 kg",
-    27.25
+    29.38
    ],
    [
     "Lima ácida tahiti",
     "Colhida",
     "Araraquara",
     "R$/cx 27 kg",
-    156.89
+    160.54
    ],
    [
     "Lima ácida tahiti",
     "Colhida",
     "Bebedouro",
     "R$/cx 27 kg",
-    155.0
+    150.0
    ],
    [
     "Lima ácida tahiti",
