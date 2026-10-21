@@ -68,7 +68,9 @@ Cada página (e cada fruta) publica o fechamento num dia diferente, por isso **c
 
 - Para cada linha, use o **fechamento mais recente em que aquela linha aparece com preço** e registre a data desse fechamento (a data impressa em `Fechamento: dd/mm/aaaa`).
 - Preço sempre em R$/kg, como publicado. Não converta, não copie preço de uma data para outra.
-- Mantenha os mesmos produtos, classificações e praças que já estão no arquivo. Se uma linha não aparecer em nenhum fechamento da página, mantenha a linha anterior com a data anterior.
+- Só vale preço com data de fechamento impressa (`Fechamento: dd/mm/aaaa`). Para cada fruta, use a página própria dela na Notícias Agrícolas (a partir de https://www.noticiasagricolas.com.br/cotacoes/frutas), onde aparecem os blocos de fechamento. Valores sem rótulo de fechamento (por exemplo, só "Atualizado em") não servem.
+- Mantenha os mesmos produtos, classificações e praças que já estão no arquivo.
+- Toda linha precisa ter preço e data confirmados na página da fruta. Se a data atual de uma linha não puder ser confirmada (o fechamento dessa data não aparece na página), troque o preço e a data pelos do **fechamento mais recente que a página mostra para aquela linha**, mesmo que seja mais antigo. Se a linha não aparecer em nenhum fechamento, retire-a e registre o motivo no commit.
 - Nunca troque a data de uma linha sem trocar também o preço lido naquela data.
 
 **b) Bloco antigo (`data` e `linhas`), usado por versões antigas do app:** não altere mais.
