@@ -47,6 +47,16 @@ if not (num(U.get('industria')) and num(U.get('pera')) and 5 <= U['industria'] <
 for k in ('industria_var', 'pera_var'):
     if k in U and not re.fullmatch(r'[+-]?\d+,\d{2}%', str(U[k])): erro(f'ultimo.{k} deve ser como +0,11%')
 if du and S and du < datetime.date.fromisoformat(S[-1][0]): erro('ultimo.data é anterior ao último fim de mês da serie')
+R = U.get('recente')
+if not isinstance(R, dict): erro('falta ultimo.recente (cotação mais recente de cada série, com a própria data)')
+else:
+    for k in ('industria', 'pera'):
+        r = R.get(k)
+        if not (isinstance(r, dict) and data_br(r.get('data')) and num(r.get('valor')) and 5 <= r['valor'] <= 300):
+            erro(f'ultimo.recente.{k} fora do formato: {r}'); continue
+        if 'var' in r and not re.fullmatch(r'[+-]?\d+,\d{2}%', str(r['var'])): erro(f'ultimo.recente.{k}.var deve ser como +0,11%')
+        if data_br(r['data']) > hoje: erro(f'ultimo.recente.{k}.data está no futuro')
+        if du and data_br(r['data']) < du: erro(f'ultimo.recente.{k}.data é anterior a ultimo.data')
 if not (url(C['links']['industria']) and url(C['links']['pera'])): erro('links do Cepea inválidos')
 
 H = j['hf_mesa']
@@ -57,6 +67,14 @@ E = j['ceasas']
 if not data_br(E.get('data')): erro('ceasas.data deve ser dd/mm/aaaa')
 if not (isinstance(E['linhas'], list) and E['linhas'] and all(isinstance(l, list) and len(l) == 4 and num(l[3]) and 0 < l[3] < 100 for l in E['linhas'])): erro('ceasas.linhas fora do formato (preço em R$/kg)')
 if not (isinstance(E.get('links'), list) and len(E['links']) >= 2 and all(url(u) for u in E['links'])): erro('ceasas.links inválidos')
+LD = E.get('linhas_datadas')
+if not (isinstance(LD, list) and LD): erro('falta ceasas.linhas_datadas (cada linha com a data do seu fechamento)')
+else:
+    for l in LD:
+        if not (isinstance(l, list) and len(l) == 5 and num(l[3]) and 0 < l[3] < 100 and data_br(l[4])): erro(f'ceasas.linhas_datadas fora do formato: {l}')
+        elif data_br(l[4]) > hoje: erro(f'ceasas.linhas_datadas com data no futuro: {l}')
+    chaves = [tuple(l[:3]) for l in LD if isinstance(l, list)]
+    if len(chaves) != len(set(chaves)): erro('ceasas.linhas_datadas repete produto/classificação/praça')
 
 F = j['fundecitrus']
 if not (isinstance(F['safras'], list) and len(F['safras']) >= 2): erro('fundecitrus.safras precisa de ao menos 2 itens')

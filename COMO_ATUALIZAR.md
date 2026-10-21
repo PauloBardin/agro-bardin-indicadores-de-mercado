@@ -19,11 +19,16 @@ Guarde a versão atual para comparação: `cp indicadores.json indicadores.anter
 - Laranja indústria: https://www.noticiasagricolas.com.br/cotacoes/laranja/laranja-industria
 - Laranja pera in natura: https://www.noticiasagricolas.com.br/cotacoes/laranja/laranja-pera-in-natura
 
-Cada página tem a tabela `Data | R$/Caixa 40,8 kg | Variação Dia (%)`. Pegue a **data mais recente que aparece nas duas páginas** e preencha:
+Cada página tem a tabela `Data | R$/Caixa 40,8 kg | Variação Dia (%)`. As duas séries são publicadas em ritmos diferentes, por isso cada uma tem a sua data.
 
-- `data`: essa data, `dd/mm/aaaa`
-- `industria` e `pera`: o preço em R$/caixa 40,8 kg (número com ponto decimal, ex.: 27.8)
-- `industria_var` e `pera_var`: a variação do dia como texto com sinal e vírgula, ex.: `"+0,11%"`, `"-0,68%"` (sem sinal na fonte = positivo, use `+`)
+**a) `ultimo.recente` (o que o app mostra):** para cada página, pegue a **linha mais recente daquela página**:
+
+- `recente.industria` = `{"data":"dd/mm/aaaa","valor":preço,"var":"+0,11%"}` da página da indústria
+- `recente.pera` = o mesmo, da página da pera in natura
+
+`valor` é o preço em R$/caixa 40,8 kg (número com ponto decimal, ex.: 27.8). `var` é a variação do dia como texto com sinal e vírgula (`"+0,11%"`, `"-0,68%"`; sem sinal na fonte = positivo, use `+`).
+
+**b) Bloco antigo (`data`, `industria`, `industria_var`, `pera`, `pera_var`), usado por versões antigas do app:** pegue a **data mais recente que aparece nas duas páginas** e preencha esses campos com os valores dessa data, como antes.
 
 ## 2. Cepea · fechamento de cada mês (`cepea_mensal.serie`)
 
@@ -57,7 +62,16 @@ Atualize só as linhas que já existem no arquivo, com o valor da **coluna mais 
 - Laranja: https://www.noticiasagricolas.com.br/cotacoes/laranja/laranja-ceasas (tabela `Tipo | Preço (R$/Kg) | Variação (%)`, com blocos `Fechamento: dd/mm/aaaa` e as praças Ceasa Campinas/SP, Ceasa Belo Horizonte/MG e Ceagesp/SP)
 - Demais frutas (limão tahiti, tangerinas murcott e ponkan, abacate, mamão formosa): https://www.noticiasagricolas.com.br/cotacoes/frutas
 
-Atualize as linhas existentes (`[produto, classificação, praça, preço R$/kg]`) com o preço do **fechamento mais recente**. Preço sempre em R$/kg, como publicado. Se uma linha não aparecer no fechamento mais recente, retire-a nesta coleta. `data` = data desse fechamento.
+Cada página (e cada fruta) publica o fechamento num dia diferente, por isso **cada linha tem a sua data**.
+
+**a) `linhas_datadas` (o que o app mostra):** uma linha por produto, classificação e praça: `[produto, classificação, praça, preço R$/kg, "dd/mm/aaaa"]`.
+
+- Para cada linha, use o **fechamento mais recente em que aquela linha aparece com preço** e registre a data desse fechamento (a data impressa em `Fechamento: dd/mm/aaaa`).
+- Preço sempre em R$/kg, como publicado. Não converta, não copie preço de uma data para outra.
+- Mantenha os mesmos produtos, classificações e praças que já estão no arquivo. Se uma linha não aparecer em nenhum fechamento da página, mantenha a linha anterior com a data anterior.
+- Nunca troque a data de uma linha sem trocar também o preço lido naquela data.
+
+**b) Bloco antigo (`data` e `linhas`), usado por versões antigas do app:** não altere mais.
 
 ## 5. Fundecitrus · safra e greening (`fundecitrus`)
 
