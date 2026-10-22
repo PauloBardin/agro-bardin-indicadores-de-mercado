@@ -1,6 +1,6 @@
 {
  "versao": 2,
- "atualizado": "21/10/2026",
+ "atualizado": "22/10/2026",
  "cepea_mensal": {
   "fonte": "Cepea/Esalq, via Notícias Agrícolas (cotação do último dia útil de cada mês)",
   "links": {
@@ -152,9 +152,9 @@
    "pera_var": "+2,89%",
    "recente": {
     "industria": {
-     "data": "20/10/2026",
+     "data": "21/10/2026",
      "valor": 27.54,
-     "var": "-0,94%"
+     "var": "+0,00%"
     },
     "pera": {
      "data": "20/10/2026",
@@ -167,7 +167,7 @@
  "hf_mesa": {
   "fonte": "Hortifruti/Cepea (HF Brasil), média móvel de 5 dias úteis por região",
   "link": "https://www.hfbrasil.org.br/br/estatistica/citros.aspx",
-  "data": "20/10/2026",
+  "data": "21/10/2026",
   "linhas": [
    [
     "Laranja lima",
@@ -195,35 +195,35 @@
     "Árvore",
     "Bebedouro",
     "R$/cx 40,8 kg",
-    34.25
+    34.88
    ],
    [
     "Laranja pera",
     "Árvore",
     "Limeira",
     "R$/cx 40,8 kg",
-    33.95
+    35.35
    ],
    [
     "Laranja pera",
     "Árvore",
     "Mogiana",
     "R$/cx 40,8 kg",
-    29.38
+    28.58
    ],
    [
     "Lima ácida tahiti",
     "Colhida",
     "Araraquara",
     "R$/cx 27 kg",
-    160.54
+    165.16
    ],
    [
     "Lima ácida tahiti",
     "Colhida",
     "Bebedouro",
     "R$/cx 27 kg",
-    150.0
+    167.5
    ],
    [
     "Lima ácida tahiti",
@@ -510,22 +510,22 @@
     "Mamão formosa",
     "Extra",
     "Campinas/SP",
-    8.6,
-    "19/10/2026"
+    8.0,
+    "21/10/2026"
    ],
    [
     "Mamão formosa",
     "Extra",
     "Belo Horizonte/MG",
     4.44,
-    "19/10/2026"
+    "21/10/2026"
    ],
    [
     "Mamão formosa",
     "05 a 09 frutos",
     "Ceagesp/SP",
-    7.26,
-    "19/10/2026"
+    7.0,
+    "21/10/2026"
    ]
   ]
  },
