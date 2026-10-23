@@ -1,6 +1,6 @@
 {
  "versao": 2,
- "atualizado": "22/10/2026",
+ "atualizado": "23/10/2026",
  "cepea_mensal": {
   "fonte": "Cepea/Esalq, via Notícias Agrícolas (cotação do último dia útil de cada mês)",
   "links": {
@@ -145,11 +145,11 @@
    ]
   ],
   "ultimo": {
-   "data": "20/10/2026",
+   "data": "21/10/2026",
    "industria": 27.54,
-   "industria_var": "-0,94%",
-   "pera": 31.65,
-   "pera_var": "+2,89%",
+   "industria_var": "+0,00%",
+   "pera": 31.4,
+   "pera_var": "-0,79%",
    "recente": {
     "industria": {
      "data": "21/10/2026",
@@ -157,9 +157,9 @@
      "var": "+0,00%"
     },
     "pera": {
-     "data": "20/10/2026",
-     "valor": 31.65,
-     "var": "+2,89%"
+     "data": "21/10/2026",
+     "valor": 31.4,
+     "var": "-0,79%"
     }
    }
   }
@@ -385,56 +385,56 @@
     "Extra",
     "Campinas/SP",
     10.0,
-    "20/10/2026"
+    "22/10/2026"
    ],
    [
     "Limão tahiti",
     "Especial",
     "Campinas/SP",
     7.25,
-    "20/10/2026"
+    "22/10/2026"
    ],
    [
     "Limão tahiti",
     "Primeira",
     "Campinas/SP",
     4.5,
-    "20/10/2026"
+    "22/10/2026"
    ],
    [
     "Limão tahiti",
     "Extra",
     "Belo Horizonte/MG",
     10.0,
-    "20/10/2026"
+    "22/10/2026"
    ],
    [
     "Limão tahiti",
     "Especial",
     "Belo Horizonte/MG",
     9.0,
-    "20/10/2026"
+    "22/10/2026"
    ],
    [
     "Limão tahiti",
     "15 a 18 DZ",
     "Ceagesp/SP",
-    8.47,
-    "20/10/2026"
+    8.41,
+    "22/10/2026"
    ],
    [
     "Limão tahiti",
     "21 a 27 DA",
     "Ceagesp/SP",
-    6.9,
-    "20/10/2026"
+    7.04,
+    "22/10/2026"
    ],
    [
     "Limão tahiti",
     "Acima de 31 DZ",
     "Ceagesp/SP",
-    5.62,
-    "20/10/2026"
+    5.93,
+    "22/10/2026"
    ],
    [
     "Tangerina murcott",
@@ -483,28 +483,28 @@
     "Avocado",
     "Campinas/SP",
     11.0,
-    "20/10/2026"
+    "21/10/2026"
    ],
    [
     "Abacate",
     "Breda",
     "Campinas/SP",
     4.0,
-    "20/10/2026"
+    "21/10/2026"
    ],
    [
     "Abacate",
     "Avocado/Hass/Fuerte A",
     "Ceagesp/SP",
     12.7,
-    "20/10/2026"
+    "21/10/2026"
    ],
    [
     "Abacate",
     "Breda (Boca 8 a 11)",
     "Ceagesp/SP",
     5.72,
-    "20/10/2026"
+    "21/10/2026"
    ],
    [
     "Mamão formosa",
