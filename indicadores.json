@@ -1,6 +1,6 @@
 {
  "versao": 2,
- "atualizado": "27/10/2026",
+ "atualizado": "28/10/2026",
  "cepea_mensal": {
   "fonte": "Cepea/Esalq, via Notícias Agrícolas (cotação do último dia útil de cada mês)",
   "links": {
@@ -145,20 +145,20 @@
    ]
   ],
   "ultimo": {
-   "data": "23/10/2026",
+   "data": "26/10/2026",
    "industria": 27.65,
-   "industria_var": "+0,80%",
-   "pera": 32.02,
+   "industria_var": "+0,00%",
+   "pera": 32.31,
    "pera_var": "+0,91%",
    "recente": {
     "industria": {
-     "data": "26/10/2026",
-     "valor": 27.65,
-     "var": "+0,00%"
+     "data": "27/10/2026",
+     "valor": 26.96,
+     "var": "-2,50%"
     },
     "pera": {
-     "data": "23/10/2026",
-     "valor": 32.02,
+     "data": "26/10/2026",
+     "valor": 32.31,
      "var": "+0,91%"
     }
    }
@@ -167,7 +167,7 @@
  "hf_mesa": {
   "fonte": "Hortifruti/Cepea (HF Brasil), média móvel de 5 dias úteis por região",
   "link": "https://www.hfbrasil.org.br/br/estatistica/citros.aspx",
-  "data": "26/10/2026",
+  "data": "27/10/2026",
   "linhas": [
    [
     "Laranja lima",
@@ -195,7 +195,7 @@
     "Árvore",
     "Bebedouro",
     "R$/cx 40,8 kg",
-    34.4
+    32.0
    ],
    [
     "Laranja pera",
@@ -209,14 +209,14 @@
     "Árvore",
     "Mogiana",
     "R$/cx 40,8 kg",
-    29.75
+    29.0
    ],
    [
     "Lima ácida tahiti",
     "Colhida",
     "Araraquara",
     "R$/cx 27 kg",
-    171.03
+    166.82
    ],
    [
     "Lima ácida tahiti",
@@ -237,7 +237,7 @@
     "Árvore",
     "Araraquara",
     "R$/cx 27 kg",
-    108.8
+    122.4
    ]
   ]
  },
@@ -364,168 +364,168 @@
     "Gde (11-12 DZ)",
     "Campinas/SP",
     2.2,
-    "23/10/2026"
+    "27/10/2026"
    ],
    [
     "Laranja pera",
     "Extra",
     "Belo Horizonte/MG",
     2.25,
-    "23/10/2026"
+    "27/10/2026"
    ],
    [
     "Laranja pera",
     "13 a 15 DZ",
     "Ceagesp/SP",
-    1.48,
-    "23/10/2026"
+    1.46,
+    "27/10/2026"
    ],
    [
     "Limão tahiti",
     "Extra",
     "Campinas/SP",
     10.0,
-    "23/10/2026"
+    "26/10/2026"
    ],
    [
     "Limão tahiti",
     "Especial",
     "Campinas/SP",
     7.25,
-    "23/10/2026"
+    "26/10/2026"
    ],
    [
     "Limão tahiti",
     "Primeira",
     "Campinas/SP",
     4.5,
-    "23/10/2026"
+    "26/10/2026"
    ],
    [
     "Limão tahiti",
     "Extra",
     "Belo Horizonte/MG",
     10.0,
-    "23/10/2026"
+    "26/10/2026"
    ],
    [
     "Limão tahiti",
     "Especial",
     "Belo Horizonte/MG",
     9.0,
-    "23/10/2026"
+    "26/10/2026"
    ],
    [
     "Limão tahiti",
     "15 a 18 DZ",
     "Ceagesp/SP",
-    8.41,
-    "23/10/2026"
+    8.44,
+    "26/10/2026"
    ],
    [
     "Limão tahiti",
     "21 a 27 DA",
     "Ceagesp/SP",
-    7.04,
-    "23/10/2026"
+    7.13,
+    "26/10/2026"
    ],
    [
     "Limão tahiti",
     "Acima de 31 DZ",
     "Ceagesp/SP",
-    5.93,
-    "23/10/2026"
+    5.99,
+    "26/10/2026"
    ],
    [
     "Tangerina murcott",
     "Murcott",
     "Campinas/SP",
-    4.0,
-    "30/09/2026"
+    5.0,
+    "27/10/2026"
    ],
    [
     "Tangerina murcott",
     "Graúda",
     "Belo Horizonte/MG",
     7.0,
-    "30/09/2026"
+    "27/10/2026"
    ],
    [
     "Tangerina murcott",
     "03 a 04 DZ",
     "Ceagesp/SP",
-    4.78,
-    "30/09/2026"
+    3.62,
+    "27/10/2026"
    ],
    [
     "Tangerina ponkan",
     "T. 7-9 DZ",
     "Campinas/SP",
-    5.0,
-    "30/09/2026"
+    6.67,
+    "22/10/2026"
    ],
    [
     "Tangerina ponkan",
     "Graúda",
     "Belo Horizonte/MG",
-    5.55,
-    "30/09/2026"
+    6.66,
+    "23/10/2026"
    ],
    [
     "Tangerina ponkan",
     "02 a 04 DZ",
     "Ceagesp/SP",
-    4.67,
-    "30/09/2026"
+    10.82,
+    "27/10/2026"
    ],
    [
     "Abacate",
     "Avocado",
     "Campinas/SP",
     13.0,
-    "23/10/2026"
+    "27/10/2026"
    ],
    [
     "Abacate",
     "Breda",
     "Campinas/SP",
     4.5,
-    "23/10/2026"
+    "27/10/2026"
    ],
    [
     "Abacate",
     "Avocado/Hass/Fuerte A",
     "Ceagesp/SP",
-    12.6,
-    "23/10/2026"
+    12.63,
+    "27/10/2026"
    ],
    [
     "Abacate",
     "Breda (Boca 8 a 11)",
     "Ceagesp/SP",
-    5.29,
-    "23/10/2026"
+    5.51,
+    "27/10/2026"
    ],
    [
     "Mamão formosa",
     "Extra",
     "Campinas/SP",
-    6.5,
-    "23/10/2026"
+    9.5,
+    "27/10/2026"
    ],
    [
     "Mamão formosa",
     "Extra",
     "Belo Horizonte/MG",
     5.0,
-    "23/10/2026"
+    "27/10/2026"
    ],
    [
     "Mamão formosa",
     "05 a 09 frutos",
     "Ceagesp/SP",
-    8.13,
-    "23/10/2026"
+    7.99,
+    "27/10/2026"
    ]
   ]
  },
